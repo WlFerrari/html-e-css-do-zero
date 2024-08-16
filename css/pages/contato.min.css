@@ -417,6 +417,18 @@ input[type="number"]::-webkit-outer-spin-button {
 textarea {
     resize: none; 
 }
+#footer .col-offset-desktop-1.col-desktop-3 img {
+  width: 130px; 
+  height: auto;
+  opacity: 0.8; 
+  border-radius: 10px; 
+  transition: transform 0.3s ease, opacity 0.3s ease; 
+}
+
+#footer .col-offset-desktop-1.col-desktop-3 img:hover {
+  transform: scale(1.1); 
+  opacity: 1; 
+}
 
 =======
 /**
