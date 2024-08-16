@@ -58,6 +58,6 @@ body{font-family:'Open Sans',sans-serif;color:rgb(130,130,130);line-height:25px}
     background-image: url(../../images/background-clientes.jpg);
     background-size: cover;
     background-position: center;
-    opacity: 0.4; /* Ajusta a opcacidade */
+    opacity: 0.4;
     z-index: -1; 
 }
