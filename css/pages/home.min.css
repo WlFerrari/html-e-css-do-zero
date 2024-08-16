@@ -68,3 +68,57 @@ body{font-family: "Jost", sans-serif;;color:rgb(130,130,130);line-height:25px}#h
 .h1 div.col.col-desktop-12.title{
     font-family: "Jost", sans-serif;
 }
+#customers .row .col-desktop-3 img {
+    width: 100%; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 15px; 
+    transition: transform 0.3s ease; 
+}
+
+#customers .row .col-desktop-3 img:hover {
+    transform: scale(1.05); 
+}
+
+#footer .col-offset-desktop-1.col-desktop-3 img {
+    width: 130px; 
+    height: auto;
+    opacity: 0.8; 
+    border-radius: 10px; 
+    transition: transform 0.3s ease, opacity 0.3s ease; 
+}
+
+#footer .col-offset-desktop-1.col-desktop-3 img:hover {
+    transform: scale(1.1); 
+    opacity: 1; 
+}
+#team{
+    text-align: center;
+}
+#team img {
+    width: 100%; 
+    height: 100%; 
+    border-radius: 50%; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    object-fit: cover; 
+}
+#team .container {
+    display: flex;
+    flex-wrap:wrap; 
+    justify-content: center; 
+    gap: 40px; 
+}
+#team .row {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+#team .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin: 0 40px;
+}
+
+
+
